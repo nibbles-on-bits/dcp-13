@@ -25,10 +25,10 @@ func doit(s string, k int) string {
 	return ""
 }
 
-func countUniqueChars(s string) int {
+func countUniqueChars(s1 string) int {
 	m := make(map[string]int)
-	for i := 0; i < len(s); i++ {
-		m[string(s[i])]++
+	for i := 0; i < len(s1); i++ {
+		m[string(s1[i])]++
 	}
 	return len(m)
 }
